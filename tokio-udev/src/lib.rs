@@ -30,7 +30,7 @@ use std::sync::Mutex;
 use std::task::Poll;
 
 use tokio::io::PollEvented;
-use futures_core::stream::Stream;
+use tokio::stream::Stream;
 
 /// Monitors for device events.
 ///
